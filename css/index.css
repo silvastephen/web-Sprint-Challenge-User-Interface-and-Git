@@ -76,8 +76,18 @@ p {
 .container-about-page-two{
     display: flex;
     flex-direction: row;
-    flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-evenly;
+    vertical-align: top;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.container-about-page-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     vertical-align: top;
     text-align: center;
     width: 800px;
@@ -308,10 +318,4 @@ footer nav a {
     width: 100%;
     padding-bottom: 20px;
     
-}
-
-button {
-    width: 60px;
-    height: 36px;
-    border-radius: 1px;
 }

@@ -319,3 +319,22 @@ footer nav a {
     padding-bottom: 20px;
     
 }
+
+.content-boxes {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+article {
+    width: 48%;
+    padding: 1%;
+    border-bottom: dashed;
+    margin: 1%;
+}
+
+article button {
+    width: 125px;
+    height: 25px;
+    border-radius: 4px;
+}

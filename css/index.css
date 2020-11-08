@@ -67,8 +67,26 @@ p {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     width: 800px;
     margin: 0 auto;
+}
+
+.container-about-page-two{
+    display: flex;
+    flex-direction: row;
+    flex-flow: column wrap;
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.container img {
+    width: 400px;
 }
 
 .top-content {
@@ -292,3 +310,8 @@ footer nav a {
     
 }
 
+button {
+    width: 60px;
+    height: 36px;
+    border-radius: 1px;
+}
